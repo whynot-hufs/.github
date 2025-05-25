@@ -108,11 +108,32 @@ python app.py
 npm start
 ```
 
-### Docker 실행
+### Docker 실행 (AI)
 
 ```bash
-# Docker 컨테이너 빌드 및 실행
-docker-compose up -d
+# 1) Docker 이미지 빌드
+docker build -t whynot-ai:latest .
+
+# 2) 기존 컨테이너 중단 및 삭제
+docker rm -f whynot-ai || true
+
+# 3) 새 컨테이너 실행
+docker run -d \
+  --name whynot-ai \
+  --env-file .env \
+  -p 8000:8000 \
+  whynot-ai:latest
+
+```
+
+### Docker 실행 (FE)
+
+```bash
+# 프로덕션 이미지 빌드
+docker build -t frontend-app:prod .
+
+# 새 컨테이너 실행 (포트 80:80)
+docker run -d -p 80:80 --name frontend frontend-app:prod
 ```
 
 ## 📱 사용법
