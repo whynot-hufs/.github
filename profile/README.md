@@ -266,16 +266,6 @@ docker run -d -p 80:80 --name frontend frontend-app:prod
 - 고령자의 디지털 격차 해소
 - 의료 서비스 형평성 개선
 
-## 🤝 기여하기
-
-프로젝트에 기여하고 싶으시다면:
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 라이센스
 
 이 프로젝트는 MIT 라이센스 하에 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
