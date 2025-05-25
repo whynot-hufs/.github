@@ -4,9 +4,6 @@
 
 실버케어 사전진단 AI로 고령자의 병원 내원을 돕는 AI 어시스턴트입니다.
 
-[![Website](https://img.shields.io/badge/Website-whynot2025.com-blue)](https://whynot2025.com)
-[![Hospital](https://img.shields.io/badge/Partner-용인세브란스병원-green)](https://www.yuhs.or.kr)
-
 ## 📋 프로젝트 개요
 
 헬로닥은 고령자가 병원 방문 전 적절한 진료과를 찾을 수 있도록 도와주는 AI 기반 사전진단 서비스입니다. 
